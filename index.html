@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="form">
+    <article>
+        <h1>Survey</h1>
+        <p>This is a simple survey, aimed at getting your basic information.</p>
+    </article>
+    <form>
+        <fieldset>
+        <section>
+            <label for="firstName">First Name:</label>
+            <br>
+            <input type="text" name="firstName" required>
+        </section>
+
+        <br>
+        
+        <section>
+            <label for="lastName">Last Name:</label>
+            <br>
+            <input type="text" name="lastName" required>
+        </section>
+
+        <br>
+        <section>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" required>
+        </section>
+        </fieldset>
+        <br>
+        <fieldset>
+        <section>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" /> Female
+            <input type="radio" name="gender" /> Male
+            <input type="radio" name="gender" /> Others
+        </section>
+
+        <br>
+        <section>
+            <label for="age">Age</label>
+            <input type="number" name="age" min="18" max="50"/>
+        </section>
+
+        <br>
+        <section>
+            <label for="language">Languages</label>
+            <input type="checkbox" name="language" /> HTML
+            <input type="checkbox" name="language" /> CSS
+            <input type="checkbox" name="language" /> Javascript
+            <input type="checkbox" name="language" /> C#
+            <input type="checkbox" name="language" /> Java
+            <input type="checkbox" name="language" /> Python
+        </section>
+
+        <br>
+        <section>
+            <label for="country">Country</label>
+            <select name="country">
+                <option value="benin">Benin Republic</option>
+                <option value="cameroon">Cameroon</option>
+                <option value="chad">Chad</option>
+                <option value="ghana">Ghana</option>
+                <option value="ivoryCoast">Ivory Coast</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="senegal">Senegal</option>
+                <option value="togo">Togo</option>
+            </select>
+        </section>
+        </fieldset>
+
+        <br>
+        <fieldset>
+        <section>
+            <label for="comment">Leave a comment</label>
+            <br>
+            <textarea name="comment" id="comment">Please leave a message</textarea>
+        </section>
+        </fieldset>
+        <br>
+        <section>
+            <input type="submit" name="submit" id="submit">
+        </section>
+    </form>
+    </section>
+</body>
+</html>

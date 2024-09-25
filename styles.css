@@ -1,0 +1,14 @@
+body{
+    background-color: #9c9f84;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.form{
+   background-color: antiquewhite; 
+   margin: 80px;
+   border: 30px;
+   padding: 20px;
+   border-radius: 10px;
+   justify-content: center;
+}
